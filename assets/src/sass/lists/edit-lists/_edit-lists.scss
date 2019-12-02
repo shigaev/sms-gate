@@ -1,0 +1,30 @@
+.main-content {
+  .main-content_input {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .main-content_input-item {
+      input {
+        padding: 9px;
+      }
+
+      a {
+        padding: 0 10px;
+      }
+      padding: 10px;
+
+      .button {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+.edit-lists {
+  margin: 112px 15px;
+
+  .button {
+    max-width: 350px;
+  }
+}
+

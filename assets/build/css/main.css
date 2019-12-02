@@ -12227,3 +12227,38 @@ readers do not read off random characters that represent icons */
 
 .footer-report {
   margin: 40px 0 0 30px; }
+
+.edit-comands {
+  margin: 112px 15px; }
+  .edit-comands .button {
+    max-width: 350px; }
+  .edit-comands a {
+    margin: 0 15px; }
+  .edit-comands .main-content-form_select {
+    max-width: 350px; }
+    .edit-comands .main-content-form_select .label-name {
+      width: 100%; }
+    .edit-comands .main-content-form_select textarea {
+      width: 100%; }
+    .edit-comands .main-content-form_select input {
+      width: 100%; }
+
+.main-content .main-content_input {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  flex-wrap: wrap; }
+  .main-content .main-content_input .main-content_input-item {
+    padding: 10px; }
+    .main-content .main-content_input .main-content_input-item input {
+      padding: 9px; }
+    .main-content .main-content_input .main-content_input-item a {
+      padding: 0 10px; }
+    .main-content .main-content_input .main-content_input-item .button {
+      margin-bottom: 40px; }
+
+.edit-lists {
+  margin: 112px 15px; }
+  .edit-lists .button {
+    max-width: 350px; }
