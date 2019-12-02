@@ -1,0 +1,12 @@
+@import "mixin";
+.main-content {
+  .button-comands {
+    @extend %button-comands;
+  }
+  .comands {
+    margin: 112px 15px;
+  }
+  .test {
+    display: flex;
+  }
+}

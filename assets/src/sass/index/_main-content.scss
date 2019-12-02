@@ -1,0 +1,56 @@
+@import "../index/mixin";
+@import "../index/color";
+
+.main-content {
+  // max-width: 1200px;
+  max-width: 100%;
+  height: 100%;
+  margin-left: 330px;
+  h1 {
+    padding-top: 79px;
+    margin: 0 30px;
+  }
+  .main-content-form {
+    margin: 40px 30px;
+  }
+  .main-content-form_select {
+    position: relative;
+    max-width: 40%;
+    min-width: 200px;
+    margin-bottom: 20px;
+    .label-name {
+      @include font-label-name;
+    }
+    .option-name {
+      @include option-name;
+    }
+    select {
+      cursor: pointer;
+      border: 1px solid $border;
+      -webkit-appearance: none; // убирает стрелочки стандартного селекта
+      width: 100%;
+      padding: 5px;
+      color: #a2a2a2;
+      option {
+        @include font-form-option;
+      }
+    }
+    .select-arrow {
+      position: absolute;
+      top: 42px;
+      right: 10px;
+      width: 0;
+      height: 0;
+      pointer-events: none;
+      border-style: solid;
+      border-width: 8px 5px 0 5px;
+      border-color: $border transparent transparent transparent;
+    }
+  }
+  .button {
+    @include button;
+    @extend %hover;
+    margin-top: 35px;
+    transition: 0.3s;
+  }
+}

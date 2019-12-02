@@ -1,0 +1,58 @@
+@import "../index/color";
+@mixin font-label-name {
+  font: {
+    family: Roboto, sans-serif;
+    size: 18px;
+    style: normal;
+    weight: 500;
+  }
+  line-height: 16px;
+  color: $font-form;
+}
+
+@mixin font-form-option {
+  font: {
+    family: Roboto, sans-serif;
+    size: 15px;
+    style: normal;
+    weight: 300;
+  }
+  line-height: 10px;
+  color: $font-form;
+}
+
+@mixin option-name {
+  background-color: $option-name-bg;
+  color: $option-name;
+}
+
+@mixin button {
+  background-color: $button-bg;
+  width: 40%;
+  height: 45px;
+  min-width: 200px;
+  color: $button;
+  border: none;
+}
+
+%button-left {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+}
+%hover {
+  &:hover {
+    box-shadow: 0 10px 20px -7px $btn-hover;
+  }
+  &:active {
+    background-color: $btn-active;
+    box-shadow: none;
+  }
+}
+
+%link-hover {
+  &:hover {
+    color: #6d4694;
+  }
+}
+

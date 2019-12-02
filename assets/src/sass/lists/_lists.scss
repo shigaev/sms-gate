@@ -1,0 +1,21 @@
+@import "../index/mixin";
+.main-content {
+  .hr {
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+  }
+  .list-number {
+    margin-top: 112px;
+  }
+  .lists {
+    margin: 112px 15px;
+    table {
+      tr {
+        border-bottom: 1px solid #e2e2e2;
+      }
+      .label-name {
+        @include font-label-name;
+      }
+    }
+  }
+}
