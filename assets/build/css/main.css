@@ -12198,7 +12198,7 @@ readers do not read off random characters that represent icons */
   margin-top: 112px; }
 
 .main-content .lists {
-  margin: 112px 15px; }
+  margin: 112px 40px; }
   .main-content .lists table tr {
     border-bottom: 1px solid #e2e2e2; }
   .main-content .lists table .label-name {
@@ -12214,16 +12214,32 @@ readers do not read off random characters that represent icons */
   margin-top: 80px; }
 
 .main-content .comands {
-  margin: 112px 15px; }
+  margin: 112px 40px; }
+  .main-content .comands .label-name {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: #363539; }
+  .main-content .comands tr {
+    border-bottom: 1px solid #ddd; }
 
 .main-content .test {
   display: -webkit-box;
   display: flex; }
 
 .report {
-  margin: 112px 15px 20px 0; }
+  margin: 112px 15px 20px 18px; }
   .report .refresh {
     margin: 0 0 0 20px; }
+  .report .label-name {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: #363539; }
 
 .footer-report {
   margin: 40px 0 0 30px; }
@@ -12248,7 +12264,8 @@ readers do not read off random characters that represent icons */
   display: flex;
   -webkit-box-align: center;
           align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin: 0 20px; }
   .main-content .main-content_input .main-content_input-item {
     padding: 10px; }
     .main-content .main-content_input .main-content_input-item input {
