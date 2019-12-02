@@ -12269,6 +12269,13 @@ readers do not read off random characters that represent icons */
     margin: 0 15px; }
   .edit-comands .main-content-form_select {
     max-width: 350px; }
+    .edit-comands .main-content-form_select textarea {
+      cursor: pointer;
+      border: 1px solid #d7d7d7;
+      -webkit-appearance: none;
+      width: 100%;
+      padding: 5px;
+      color: #a2a2a2; }
     .edit-comands .main-content-form_select .label-name {
       width: 100%; }
     .edit-comands .main-content-form_select textarea {
@@ -12296,3 +12303,11 @@ readers do not read off random characters that represent icons */
   margin: 112px 15px; }
   .edit-lists .button {
     max-width: 350px; }
+
+.main-content-form_select input {
+  cursor: pointer;
+  border: 1px solid #d7d7d7;
+  -webkit-appearance: none;
+  width: 100%;
+  padding: 5px;
+  color: #a2a2a2; }
