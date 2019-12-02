@@ -12231,6 +12231,13 @@ readers do not read off random characters that represent icons */
 
 .report {
   margin: 112px 15px 20px 18px; }
+  .report .main-content-form_select input {
+    cursor: pointer;
+    border: 1px solid #d7d7d7;
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 5px;
+    color: #a2a2a2; }
   .report .refresh {
     margin: 0 0 0 20px; }
   .report .label-name {
