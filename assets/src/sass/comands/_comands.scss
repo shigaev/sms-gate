@@ -10,6 +10,9 @@
     .label-name {
       @include font-label-name;
     }
+    a {
+      padding: 0 12px;
+    }
     tr {
       border-bottom: 1px solid #ddd;
     }
